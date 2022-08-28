@@ -1,0 +1,26 @@
+<resources>
+    <style name="small_button">
+        <item name="android:layout_width">@dimen/small_button_size</item>
+        <item name="android:layout_height">@dimen/small_button_size</item>
+        <item name="android:layout_margin">@dimen/margin_size</item>
+    </style>
+    <style name="small_button.Red">
+        <item name="android:backgroundTint">@android:color/holo_red_light</item>
+    </style>
+    <style name="small_button.Green">
+        <item name="android:backgroundTint">@android:color/holo_green_light</item>
+    </style>
+    <style name="small_button.Red.long_margin">
+        <item name="android:layout_marginEnd">@dimen/long_margin_size</item>
+    </style>
+    <style name="small_button.Black">
+        <item name="android:backgroundTint">@android:color/black</item>
+        <item name="android:onClick">myClickListener</item>
+    </style>
+    <style name="small_black_button_row">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>
